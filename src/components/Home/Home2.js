@@ -3,10 +3,14 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
+  AiFillAccountBook,
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
+  AiFillLinkedin,
 } from "react-icons/ai";
+import {
+  SiLeetcode
+} from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -19,7 +23,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
+              {/* I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
               <br />Technologies that i am good at
@@ -27,20 +31,23 @@ function Home2() {
                 <b className="purple"> Java, SpringBoot, Python, SQL, Html, Css, Javascript   </b>
               </i>
               <br />
-              <br />
-              My field of Interest's are building new &nbsp;
+              <br /> */}
+
+              {/* My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Apps and Products.
-                </b> 
+                </b>
                 {/* and
                 also in areas related to{" "}
                 <b className="purple">
                   Blockchain.
-                </b> */}
-              </i>
+                </b>
+              </i> */}
+
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
+              
+              {/* Whenever possible, I also apply my passion for developing products
               with <b className="purple">Spring Boot</b> and
               <i>
                 <b className="purple">
@@ -51,7 +58,10 @@ function Home2() {
               &nbsp; like
               <i>
                 <b className="purple"> React.js</b>
-              </i>
+              </i> */}
+
+                Software Engineer with 4 years of experience building applications using Java, Spring Boot, React, and cloud technologies. Skilled in system design, microservices, and delivering scalable, secure, and efficientsolutions across domains.
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -79,12 +89,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/"
+                  href="https://leetcode.com/u/arindam_podder/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <SiLeetcode />
                 </a>
               </li>
               <li className="social-icons">
@@ -94,10 +104,10 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <FaLinkedinIn />
+                  <AiFillLinkedin />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://www.instagram.com/arindam_podder/"
                   target="_blank"
@@ -106,7 +116,7 @@ function Home2() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </Col>
         </Row>
